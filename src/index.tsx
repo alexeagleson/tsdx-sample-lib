@@ -1,6 +1,6 @@
 import React, { FC, HTMLAttributes, ReactChild } from 'react';
 import { Theme } from 'antd/lib/config-provider/context';
-const theme = require('theme') as Theme;
+const theme = require('./theme') as Theme;
 
 export interface Props extends HTMLAttributes<HTMLDivElement> {
   /** custom content, defaults to 'the snozzberries taste like snozzberries' */
